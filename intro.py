@@ -21,3 +21,27 @@ elif temperature < 18:
         print("It's a cold day.")
 else:
         print("It's neither hot nor cold.")
+
+
+#loops: repeates a block of code multiple times - for(when you know the no. of iterations), while
+for i in range(5):
+    print(f"This is a for loop iteration {i}")
+
+# for i in range(0, 10, 2):
+#     print(f"This is a for loop iteration {i}")    
+
+while temperature > 25:
+    print(f"The temperature is {temperature}. It's too hot.")
+    temperature -= 18
+
+countdown = 5 
+while countdown > 0:
+    print(f"Countdown: {countdown}")
+    countdown -= 1   
+print("Blast off!")
+
+#functions: reusable block of code that performs operations
+def greet(name):
+    return f"Hello, {name}!"
+
+print(greet("Alice"))    
